@@ -1,0 +1,63 @@
+*{
+    font-family: 'League Spartan', sans-serif;
+    font-size: 32px;
+}
+
+html, body {
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    --mainBg: hsl(222, 26%, 31%);
+    --keypadBg: hsl(223, 31%, 20%);
+    --screenBg: hsl(224, 36%, 15%);
+
+    //Keys
+    --keyBgDel: hsl(225, 21%, 49%);
+    --keyBgDelLight: hsl(225, 21%, 55%);
+    --keyShadowDel: hsl(224, 28%, 35%);
+    --keyShadowDelDark: hsl(224, 28%, 25%);
+
+    --keyBgEqual: hsl(6, 63%, 50%);
+    --keyBgEqualLight: hsl(6, 63%, 55%);
+    --keyShadowEqual: hsl(6, 70%, 34%);
+    --keyShadowEqualDark: hsl(6, 70%, 24%);
+
+    --keyBgNum: hsl(30, 25%, 89%);
+    --keyBgNumLight: hsl(30, 25%, 95%);
+    --keyShadowNum: hsl(28, 16%, 65%);
+    --keyShadowNumDark: hsl(28, 16%, 55%);
+
+    //Text
+    --text: rgb(255, 255, 255);
+    --textKey: hsl(221, 14%, 31%);
+    }
+
+body.light {
+    --mainBg: hsl(0, 0%, 90%);
+    --keypadBg: hsl(0, 5%, 81%);
+    --screenBg: hsl(0, 0%, 93%);
+
+    //Keys
+    --keyBgDel: hsl(185, 42%, 37%);
+    --keyBgDelLight: hsl(185, 42%, 47%);
+    --keyShadowDel: hsl(185, 58%, 25%);
+    --keyShadowDelDark: hsl(185, 58%, 15%);
+
+    --keyBgEqual: hsl(25, 98%, 40%);
+    --keyBgEqualLight: hsl(25, 98%, 50%);
+    --keyShadowEqual: hsl(25, 99%, 27%);
+    --keyShadowEqualDark: hsl(25, 99%, 17%);
+
+    --keyBgNum: hsl(45, 7%, 89%);
+    --keyBgNumLight: hsl(45, 7%, 95%);
+    --keyShadowNum: hsl(35, 11%, 61%);
+    --keyShadowNumDark: hsl(35, 11%, 51%);
+
+    //Text
+    --text: hsl(60, 10%, 19%);
+    --textKey: hsl(60, 10%, 19%);
+}
+
+main {
+    width: 100%;
+}
