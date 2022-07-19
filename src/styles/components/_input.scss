@@ -11,13 +11,12 @@
     .input {
         background-color: transparent;
         border: none;
-        width: 100%;
+        width: 90%;
         height: 70%;
+        text-align: end;
         margin: 15px;
-        display: flex;
-        justify-content: end;
-        align-items: center;
         font-size: 64px;
         color: var(--text);
+        padding: 0px;
     }
 }

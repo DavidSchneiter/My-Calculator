@@ -60,9 +60,13 @@ export const CalculatorApp = () => {
 			</div>
 			<div className='main__container-input'>
 				
-				<p className='input' id='input'>
-					{input}
-				</p>
+				<input 
+					className='input' 
+					id='input'
+					value={input}
+					disabled
+				>
+				</input>
 			</div>
 			<div className='main__container-keys'>
 				<div className='container__keys'>
